@@ -1,7 +1,7 @@
 let btnNext = document.querySelector('.next')
 let btnBack = document.querySelector('.back')
 
-let containter = document.querySelector('.container')
+let container = document.querySelector('.container')
 let list = document.querySelector('.container .list')
 let thumb = document.querySelector('.container .thumb')
 
@@ -27,3 +27,4 @@ function moveItemsOnClick(type){
     container.classList.remove('back')
   }, 3000)
 }
+
